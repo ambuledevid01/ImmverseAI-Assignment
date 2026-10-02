@@ -12,7 +12,7 @@ Manuscript Specific Layout Region Detection
 
 
 📂 Project Directory Structure (I used the Releative Paths Here)
-
+  ```
   manuscript-layout-detector/
   │
   ├── config/                     # Configuration management package
@@ -76,7 +76,7 @@ Manuscript Specific Layout Region Detection
   ├── .gitignore                  # Git ignore definitions
   └── README.md                   # Complete documentation
 
-
+    ```
 
 🛠️ Installation & Requirements
 
