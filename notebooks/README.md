@@ -1,5 +1,4 @@
-# Notebooks Directory
-
+# Notebooks Directory  (for now empty)
 This directory contains Jupyter notebooks used for:
 1. **Exploratory Data Analysis (EDA)**: Inspecting historical manuscript page dimensions, aspect ratios, faded ink levels, and layout variation.
 2. **Annotation Inspection**: Visualizing ground-truth region labels (`header`, `footer`, `main_text`, `side_text`, `filler`).

@@ -1,16 +1,9 @@
-"""
-Main entry point for manuscript layout region detection verification.
-"""
-
+# Main entry point for manuscript layout region detection verification.
 import sys
 import os
-
 from config import load_config
 from src.utils.logger import setup_logger
-
 logger = setup_logger("Main")
-
-
 def print_project_summary():
     try:
         config = load_config()
@@ -27,13 +20,9 @@ def print_project_summary():
         print("=" * 65 + "\n")
     except Exception as e:
         logger.error(f"Failed to load configuration: {e}")
-
-
 def main():
     logger.info("Initializing Manuscript Specific Layout Region Detector...")
     print_project_summary()
     logger.info("Project initialized successfully.")
-
-
 if __name__ == "__main__":
     main()
