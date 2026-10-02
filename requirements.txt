@@ -1,19 +1,9 @@
-# Core Computer Vision and Image Processing
-opencv-python>=4.8.0      # For image reading, resizing, color conversion, and drawing
-Pillow>=10.0.0            # Python Imaging Library for basic image operations
-
-# Numerical Computation and Data Handling
-numpy>=1.24.0             # Array operations and mathematical calculations
-
-# Configuration Management
-pyyaml>=6.0               # Reading YAML configuration files (config.yaml)
-
-# Visualization and Progress Tracking
-matplotlib>=3.7.0         # Plotting bounding boxes and saving annotated images
-tqdm>=4.65.0              # Progress bar display during batch processing
-
-# Interactive Web Application
-streamlit>=1.25.0         # Streamlit web dashboard for manuscript layout detection
-
-# Testing Framework
-pytest>=7.4.0             # Writing and running unit tests
+# Python 3.10+
+opencv-python-headless>=4.10.0.84
+numpy>=1.26.4
+Pillow>=10.4.0
+PyYAML>=6.0.1
+matplotlib>=3.8.4
+tqdm>=4.66.5
+streamlit>=1.39.0
+pytest>=8.3.3
