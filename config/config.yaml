@@ -1,0 +1,32 @@
+project_name: "manuscript-layout-detector"
+version: "0.1.0"
+
+target_classes:
+  - header
+  - footer
+  - main_text
+  - side_text
+  - filler
+
+class_colors:
+  header: [255, 99, 71]
+  footer: [30, 144, 255]
+  main_text: [50, 205, 50]
+  side_text: [255, 165, 0]
+  filler: [186, 85, 211]
+
+paths:
+  raw_data: "./data/raw"
+  processed_data: "./data/processed"
+  test_images: "./data/test_images"
+  annotations: "./data/annotations"
+  pretrained_models: "./models/pretrained"
+  trained_models: "./models/trained"
+  predictions_output: "./outputs/predictions"
+  annotated_output: "./outputs/annotated"
+  metrics_output: "./outputs/metrics"
+
+inference:
+  confidence_threshold: 0.5
+  iou_threshold: 0.45
+  device: "cpu"
