@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and Outputs (Ignore generated artifacts, keep directory structure)
+outputs/predictions/*
+!outputs/predictions/.gitkeep
+outputs/annotated/*
+!outputs/annotated/.gitkeep
+outputs/metrics/*
+!outputs/metrics/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Model weights (large files)
+models/pretrained/*.pt
+models/pretrained/*.pth
+models/pretrained/*.onnx
+models/trained/*.pt
+models/trained/*.pth
+models/trained/*.onnx
+!models/pretrained/.gitkeep
+!models/trained/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
