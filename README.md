@@ -168,8 +168,9 @@ Terminal
 
 Note : I made the half of the project using the AI tools .
        I Optimised the Pyhton code Code. 
-       Used Node & Express for the Backend
-       for frontend I used the Streamlit UI 
+       Used Node & Express for the Backend (simply calling the teminal for the image processing)
+       for frontend I used the Streamlit UI
+
 
 
        Thank You ! 
